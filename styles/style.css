@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.main-block {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.main-content {
+
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 550px;
+
+}
+.main-content h1 {
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+.main-content p {
+    font-size: 20px;
+    margin-bottom: 35px;
+
+}
+.main-content a {
+    font-size: 20px;
+    color:white;
+    margin-right: 5px;
+}
